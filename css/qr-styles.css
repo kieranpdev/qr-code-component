@@ -1,0 +1,71 @@
+/* Base Layout Styles --------------*/
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: .9375em; /* 15px */
+    hyphens: auto; /* browser chooses hyphenation rules to avoid overflow - useful for mobile devices */
+}
+
+img {
+    width: 100%;
+}
+
+
+/* Base Colours & Fonts-------------*/
+
+
+/* Mobile First Layout -------------*/
+img {
+    border-radius: 1rem;
+}
+
+.main-content{
+    background-color: hsl(212, 45%, 89%);
+    padding: 5rem 0;
+    margin-bottom: 2rem;
+}
+
+.qr-component {
+    max-width: 300px;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    margin: 0 auto;
+}
+
+/* Mobile First Colours & Fonts-----*/
+.qr-component {
+    background-color: #fff;
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+}
+
+.qr-component h3{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.qr-component p{
+    font-weight: 400;
+    color: hsl(220, 15%, 55%)
+}
+
+/* Large Screen Layout -------------*/
+@media screen and (min-width: 1440px) {
+
+        body{
+            background: url("../images/bg-solution.png");
+        }
+
+        .main-content {
+            max-width: 80vw;
+            padding: 6rem 4rem;
+            margin: 20vh auto;
+            box-shadow: 0 10px 30px 6px hsl(220, 15%, 55%, 0.4);
+        }
+
+        .qr-component {
+            margin: 0 auto;
+        }
+}
