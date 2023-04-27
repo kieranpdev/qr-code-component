@@ -22,8 +22,8 @@ I created a responsive QR code compenent based on the images provided with the b
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/kieranpdev/qr-code-component)
-- Live Site URL: [Add live site URL here](https://kieranpdev.github.io/qr-code-component/)
+- Solution URL: [Solution url](https://github.com/kieranpdev/qr-code-component)
+- Live Site URL: [Live site](https://kieranpdev.github.io/qr-code-component/)
 
 ## My process
 
@@ -36,4 +36,4 @@ I created a responsive QR code compenent based on the images provided with the b
 ## Author
 
 - Kieran price
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/kieranpdev)
+- Frontend Mentor - [@kieranpdev](https://www.frontendmentor.io/profile/kieranpdev)
