@@ -8,6 +8,10 @@ html {
     hyphens: auto; /* browser chooses hyphenation rules to avoid overflow - useful for mobile devices */
 }
 
+body {
+    background: url("../images/bg-solution.png");
+}
+
 img {
     width: 100%;
 }
@@ -51,12 +55,12 @@ img {
     color: hsl(220, 15%, 55%)
 }
 
+.main-footer {
+    margin-top: 2rem;;
+}
+
 /* Large Screen Layout -------------*/
 @media screen and (min-width: 1440px) {
-
-        body{
-            background: url("../images/bg-solution.png");
-        }
 
         .main-content {
             max-width: 80vw;
