@@ -8,27 +8,21 @@ html {
     hyphens: auto; /* browser chooses hyphenation rules to avoid overflow - useful for mobile devices */
 }
 
-body {
-    background: url("../images/bg-solution.png");
-}
-
 img {
     width: 100%;
 }
 
 
-/* Base Colours & Fonts-------------*/
-
-
 /* Mobile First Layout -------------*/
-img {
-    border-radius: 1rem;
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.main-content{
-    background-color: hsl(212, 45%, 89%);
-    padding: 5rem 0;
-    margin-bottom: 2rem;
+img {
+    border-radius: 1rem;
 }
 
 .qr-component {
@@ -39,13 +33,17 @@ img {
 }
 
 /* Mobile First Colours & Fonts-----*/
+body {
+    background-color: hsl(212, 45%, 89%);
+}
+
 .qr-component {
     background-color: #fff;
     font-family: 'Outfit', sans-serif;
     text-align: center;
 }
 
-.qr-component h3{
+.qr-component h1{
     font-weight: 700;
     font-size: 1.5rem;
 }
@@ -55,21 +53,11 @@ img {
     color: hsl(220, 15%, 55%)
 }
 
-.main-footer {
-    margin-top: 2rem;;
-}
-
 /* Large Screen Layout -------------*/
 @media screen and (min-width: 1440px) {
 
-        .main-content {
-            max-width: 80vw;
-            padding: 6rem 4rem;
-            margin: 20vh auto;
-            box-shadow: 0 10px 30px 6px hsl(220, 15%, 55%, 0.4);
-        }
+    .qr-component {
+        box-shadow: 0 10px 30px hsl(220, 15%, 55%, 0.4);
+    }
 
-        .qr-component {
-            margin: 0 auto;
-        }
 }
