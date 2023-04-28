@@ -17,7 +17,7 @@ I created a responsive QR code compenent based on the images provided with the b
 
 ### Screenshot
 
-![](./images/solution-screenshot.png)
+![](./images/solution-screenshot-v2.png)
 
 
 ### Links
